@@ -1,0 +1,19 @@
+{
+  "name": "bigfiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "doc": "docker-compose up -d"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^4.11.4",
+    "csv-writer": "^1.6.0",
+    "event-stream": "^4.0.1"
+  }
+}
